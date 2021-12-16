@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: robotoBold;
+  src: url(../fonts/roboto/Roboto-Bold.ttf);
+}
+body {
+  font-family: roboto;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 20%;
+}
+body form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px black;
+  padding: 1em;
+}
+
+div {
+  margin: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    padding-bottom: 5em;
+  }
+  nav #navbar {
+    display: none;
+  }
+  nav #burgerButton {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

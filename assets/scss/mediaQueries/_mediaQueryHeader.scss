@@ -1,0 +1,13 @@
+@media screen and (max-width :900px){
+    nav{
+        #navbar{
+            display: none;
+        }
+        
+        #burgerButton{
+            display: block;
+        }
+        
+        padding-bottom: 5em;
+    }
+}

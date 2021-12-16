@@ -1,0 +1,16 @@
+body{
+    @include flex;
+    padding-top: 20%;
+
+    form {
+        @include flex(center, column);
+        box-shadow: 0 0 10px black;
+        padding: 1em;
+    }
+}
+
+div{
+    margin: 1em;
+    @include flex(space-between);
+    width: 100%;
+}
